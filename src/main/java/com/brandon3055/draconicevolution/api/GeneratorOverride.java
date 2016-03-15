@@ -27,7 +27,7 @@ public class GeneratorOverride {
 
 	/**
 	 * This can be used to generate a chaos island at a given set of coordinates
-	 * This method needs to be called foe every chunk in a 360 x 360 block area.
+	 * This method needs to be called for every chunk in a 360 x 360 block area.
 	 * Its ok to run it on a larger area it just wont do anything to chunks outside that area.
 	 *
 	 * @param chunkX the x pos of the chunk being generated (this is the xCoord divided by 16 not the xCoord itself)
